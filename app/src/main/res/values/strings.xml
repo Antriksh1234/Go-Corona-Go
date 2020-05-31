@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">Go Corona Go!</string>
+    <string name="title_activity_about_section">About Me</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings" formatted="false">Settings</string>
+    <string name="mydescription" formatted="false">"Hello Everyone, this is Antriksh Telang, who is the developer of this app. \n\n"
+"I am currently pursuing my BTech degree in Computer Science and Engineering, in Lakshmi Narain College of Technology, Bhopal.\n\n"
+"I built this app because I thought that people find it difficult to find the resources again and again at different places. So I thought to come up with an idea to integrate all the researches and right info at one place so that the people become aware and could differentiate between what is right and wrong. Also I include the knowledge of experts from throughout the internet and place it at one place. Sources are trusted so you need not worry.\n\n"
+"I just want that people are aware and don't get fooled by the rumours around. It is better that we have some knowledge so that we can take the right steps and fight out this pandemic together. It's my personal ideology that when the going gets tough, we must simply follow the basics and everything would be fine. The same we could see around by the endorsements of various simple practises like washing hands with soap, sneezing at our elbow etc etc..\n"
+"\nSo lets be more aware and take proper steps so we can fight this pandemic strongly and come out emerging to be victorious with flying colors.\n\n"
+"Cheers!!\n\n"</string>
+    <string name="virusinfo" formatted="false">"Viruses are basically the microrganisms that live and reproduce in another organism\'s body (called as hosts, for example humans, birds, pigs etc.). These are not particularly said to be living or non living as scientists argue. They are incapable of doing anything unless they find a host. They usually feed on the protein of the host\'s cell.\n\n"
+
+"A virus when independent of it's host has a protective coating known as the capsid. It also contains a viral genome which is responsible to hijack the host\'s cell working. Some viruses have a greasy coating known as the envelope. This greasy coating helps virus to be dormant when they don\'t find a host.\n\n"
+
+"When a Virus basically gets into a host\'s body, it tries to capture a cell to start it\'s functioning. Now a cell would not easily allow any foreign material to come inside. But viruses have a special pass which they use to enter the cell. Our cells contain protein. Now the coating mentioned earlier ie. capsid has a special protein which has a special affinity to bind with the host 's cell protein. To put in simple words,the virus breaks that security check of host's cell by combining with the protein in our cells. This is a major step taken to get a host to live in. Now the genome gets injected into our cells pretty much like an injection is injected in our body. Now this hijacks cell's normal functioning and asks it to replicate thus creating more capsids.\n"
+
+</string>
+    <string name="viruainfo2" formatted="false">\nNow if you were attentive, these capsids are only responsible to break the cell\'s security check. Thus more and more cells are infected and hence the host get a particular disease caused by that virus accordingly. Also these viruses kill their own creators, ie.host\'s cell by creating hole in their membrane (membrane could be simply thought of a layer around the cell).\n"</string>
+    <string name="bacteriavirusinfo" formatted="false">"Firstly bacteria are not as dangerous as the viruses. They are harmless and mostly are beneficial for human health. There are trillions of bacteria that live in our intestine and there are many which reside on our skin harmlessly. Researches show that only 1% of the bacteria can cause us any harm. Even as a cherry on top, these are not mostly capable of making us sick. Usually our immune system is good enough to overpower them.\n\n"
+"Viruses, on the other hand are parasites that live on the other\'s body\'s cell as explained in the previous section of 'What is virus at the first place'. These usually are responsible for making us sick. They simply multiply themselves by hijacking the host's cell mechanism.\n\n"
+"Seeing the current scenario of the world, have you ever asked yourselves- Why is it taking so much time? Why we haven’t developed vaccines for the novel Coronavirus yet? Are not scientists putting enough efforts? Is this virus so special and different that we are finding it difficult to get a medication for it?\n"
+</string>
+    <string name="bacteriatreatment" formatted="false">\n\nWell this is certainly not the case. The process of getting medication of a viral disease takes time. Firstly we need to understand the basic difference in mechanism between how a bacterial disease is cured and what it takes to cure a viral disease.  As you might know we need antibiotics to fight a bacterial disease. Usually these antibiotics affect the cell wall of the bacteria. (Yes Bacteria too are nothing but an organism with a single cell. Obviously a bacteria cell is way different from our body’s cell but still they are nothing but a single cellular organism) Now as the cell wall is surpassed, the bacteria dies and we recover from a disease.</string>
+    <string name="virustreatment" formatted="false">\nBut this is not the case with the viruses. These don’t have cell wall and thus these viruses can’t be overpowered with this mechanism.\n</string>
+    <string name="virustreatment2" formatted="false">\nSo are all viral diseases incurable? Obviously not. Now as we discussed that viruses feed on the protein of host’s cell so if we create compounds that don’t allow the viruses to feed on our cells’ protein then they are pretty much same as the viruses without the host which could do nothing. Ultimately the person recovers and gets healthy.</string>
+    <string name="viruslimitations" formatted="false">\nBut as you may suspect, these compounds deal with the human cells so they need to be tested whether they are safe for human body or not. This, as you may guess, is a time consuming process and hence we are consuming a lot of time to get a medication for the virus.\n\n\n\n</string>
+    <string name="whatiscovid19" formatted="false">"The COVID -19 disease is a disease caused by a SARS related coronavirus 2. By coronavirus we simply don\'t mean only single virus but a family of viruses. These viruses were first detected in Wuhan, China as you may know, in December 2019. This is a similar virus to SARS (Severe Acute Respiratory Syndrome) and MERS (Middle East Respiratory Syndrome). The research on the virus is not enough but the main cause of spread is suspected to be droplet infection. Usually when a infected person coughs or sneezes, they releases droplets of infection containing viruses. These when inhaled by nearby people results in the infection in others. Also this might infect other if a person has virus over their body in their hands due to some reason and the person touches their face specially their eyes, nose or mouth.\n"
+        "\nCOVID -19 is an abbreviation given to this disease. Here CO and VI are taken from the word coronavirus (co for corona and vi for virus). D stands for disease and 19 for the year 2019 in which it was discovered."
+    </string>
+    <string name="covidsymptoms" formatted="false">The symptoms of COVID -19 includes -\n1. fever \n2. tiredness\n3. dry cough\n\n\nSome people can even experience-\n1. ache and pains \n2. runny nose \n3. shortness of breath \n4. sore throat \n5. diarrhoea \n\nOn average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days sometimes.</string>
+    <string name="covidwhatitdoesinside" formatted="false">As mentioned above it starts its journey from eyes, nose and/or mouth. Its major target includes the intestines and the lungs.  The most dramatic effect is seen in the lungs. Our lung have epithelial cells which act as a lining protecting lung infections. These cells are the ones attacked by the corona. With the same mechanism as explained in the first section the virus injects its genetic material into the cells\' insides. Now the virus has hacked your cells\' mechanism. Now it asks the cell to follow a simple instruction of creating more and more copy of the viruses. Ultimately when the cell is destroyed upto a certain limit, it is given a command to self destruct itself completely. This ultimately releases the new copies of viruses to affect other healthy cells. Soon millions and billions of cells are infected. Your lungs are under threat now.\n\n But the damage has not begun yet. The real damage starts when the immune cells come into the picture. When the immune cells come into the rescue, corona infects some of them and creates confusion. Due to this immune cells come into a beast mode where they are killing healthy cells as well other than the corona. The immune cells are confused and infected in a way that the immune system sends more immune cells than required thus wasting its resources. Also being confused, these immune cells orders as many healthy cells to commit suicide as the infected ones. These situation may go so bad that it may cause permanent irreversible damage resulting in life long disablities. \n\nBeing wasted too many resource and damage of the epithelial cells makes a victim more susceptible to bacterial infections which are normally not a concerning case. Thus weak body easily can fall in prey to many diseases and infections which ultimately may lead to diseases like pneumonia and even death. \n\nHowever in most cases the story doesn\'t go this far and soon the immune cells figure out what is wrong and clear up the battlefield resulting in recovery to begin. But as you can figure out the virus could be pretty dangerous and thus can lead to loss of life. Hence it is recommended to follow the guidelines given by the government and WHO to protect yourself from this deadly virus.\n\n</string>
+    <string name="whywashhands">Washing hands with alcohol based sanitizer or soap kills viruses. Specifically talking about soaps, soaps are good at removing grease. Novel coronavirus basically has a fatty layer around itself. When soaps are applied, that greasy membrane is destroyed and the virus becomes unable to infect.
+</string>
+    <string name="whyrespiratoryhygiene" formatted="false">Corona is meant to spread via droplets. Thus if you maintain respiratory hygiene, then you create a big difference by blocking the chain of infection.
+</string>
+    <string name="whynottouchhands" formatted="false">The reason behind this is that eyes, mouth and nose are the entry point of viruses to enter our body. Thus touching them may result viruses to go inside if unluckily you have some of them over your body.
+</string>
+    <string name="whysneezeonelbow" formatted="false">A very trivial reason as you can guess, sneezing in the way we usually do actually puts up a lot of viruses over our hands. Now since we use our hands everywhere, we transmit them all over not only on many surfaces, but also to others while touching them. That is why it is said to avoid contact with others specially handshakes because by doing so you pass the germs to other individuals too.
+</string>
+    <string name="whymask" formatted="false">"Another very trivial reason as you may be able to guess, but with a bit of scientific touch. A person infected with coronavirus — even one with no symptoms — may emit aerosols when they talk or breathe. Aerosols are infectious viral particles that can float or drift around in the air. Another person can breathe in these aerosols and become infected with the virus. A mask can help prevent that to happen. An article published in NEJM in March reported that aerosolized coronavirus could remain in the air for up to three hours.\n\n"
+"So then what kind of mask should you wear? Because of the short supply, people without symptoms or without exposure to someone known to be infected with the coronavirus can wear a cloth face covering over their nose and mouth."
+</string>
+    <string name="lastreason" formatted="false">"Lastly never trust any messages without checking. Try to check their validity on the internet. Neither create fake news nor share it. If you feel that a message is fake , there are pretty high chances that it is actually fake. Never trust or share any messages without verification. Also take care that you take all the necessary steps to prevent the infection. It is high time that we socially engineer ourselves to prevent any mishap. Take a pledge that neither you would get infected nor would infect others.\n\n"
+"So lets do our very best and make our world corona free!!\n\n\n"</string>
+
+    <string name="social1" formatted="false">
+"Social distancing is really the core of this section and this is very necessary to understand that why we need to follow it.\n\n"
+"The entire world are going through lockdowns. Many nations have fought out this battle with the help of social distancing only. Let us try to find out why.\n\n"
+"Firstly this virus doesn\'t spread via air. This has been the biggest plus for all of us as absence of such means of transmission actually slows down the transmission and brings the consequence under our very own hands. The virus is meant to spread via human transmission. Thus if you stay away from people and don\'t go out, you are actually pretty safe.\n\n"
+"There is a parameter which is called as the reproductive number R0 which tells on average how many persons on average you may infect if you have a virus. Studies are not yet enough but the estimation is it is between 2 and 3. However many researches say that it may be even higher.\n\n "
+"There is another pretty interesting parameter that you may get to know here. There is a very interesting pattern that has been figured out. More the reprodcutive number of the virus the less is the mortality rate. For example the mortality rate of Rabies is 100% as per studies if you don't get it treated. Ebola has a 40% mortality rate. But these don't transmit as easily as seasonal flu which has a mortality rate of only 0.01%. For your knowledge it is been found that the R0 for seasona flu is around 6. Hence you can see more easily the virus spreads the lesser the dangerous it is.\n\n"
+</string>
+
+    <string name="social2" formatted="false">"However the more nasty ones are the ones with a moderate mortality rate. These spread across easily and also are dangerous. SARS (Severe Acute Respiratory syndrome) has a mortality rate of around 10%.It was a huge problem that China and South Korea faced. They were the ones bashed in 2003 for poor preparations. This is the reason why they have been pretty pro active and tackled the situation better than the other nations.\n\n"
+"Knowing all of this, we can see that COVID-19 spreads fast. Even considering that there are only 2% deaths across the world due to it, and supposing we are lucky and only half of the people are affected without any lockdowns and carrying on our daily activities, we get an approx number of around 77 million (7.7 crore) deaths!! Surely that would be a huge blow to world\'s economy as there would be lesser consumers as well as producers. Also our healthcare systems are not even compatible for number of dying people, let alone the total infected ones.\n\n"
+"So what can be done is to create social distancing. Since the virus spreads only by human to human transmission, hence creating a distance among the people (not ideologically!!) is necessary. We can significantly reduce the number of patients by performing social distancing.\n\n"
+"But one may argue - Going out completely is unavoidable. There is a chance that I may get infected. So what's the use if I am getting infected anyways? Well there is.\n\n"
+"When there are lesser people out, the lesser is the chance that there is one infected among them. Also if by chance someone is infected amongst them, he or she would infect lesser people. Those lesser people if maintain distancing at home, maybe they won't affect all of their family members. Considering this practice by all, this reduces the number of infections significantly.\n\n"
+</string>
+
+    <string name="social3">"The basic idea is the concept of \'Flattening the curve\'. If the number of cases rise quickly, our health care systems would not be able to handle them as the number of cases would be higher than the healthcare capacity. Also if the number of cases are high, there would be high chances that the doctors and nurses too get infected hence reducing the capacity of our healthcare system further.\n\n"
+"However if we convert this into a slow pandemic, then everyone would get a chance to be treated. The older cases would recover and go back creating room for the newer patients to seek medical assistance. Hence there would be higher chance that everyone gets a chance to be treated hence, not overburdening our healthcare system.\n\n"
+"Hence it is a request to stay at home, neither get infected, nor infect others.\n\n"
+</string>
+    <string name="china">"We have been seeing nations bashing China for the outbreak of COVID -19. But is it fair to say so?\n\n"
+"Well if the origin is in China, then it is pretty much justified. Although claiming anything that it is certainly true, having a 100% probability is very difficult, but so far whatever evidences we have, we can see that China seems to be the originator of the virus.\n\n"
+"So far the experts have tried to figure out which animals are the ones from which we got this virus. Bats are the first one to know, but the other species is yet not clear as of April 2020.\n\n"
+"So how does China seems to have any relation? Well we start to find one when we understand the zoonotic viruses.\n\n"
+"We have discussed a lot about viruses(if you jumped into this section very first then check out \'what is virus at the first place\' and \'how viruses are different from bacteria\' sections, you may have even better understanding)  Now as most probably you may know, not only humans, but animals too are infected by the viruses, a lot of viruses. However it is not necessary that they infect the humans as well. For a virus to infect other species, or to be specific, jump from one species to another, luck plays a huge factor. A virus may be able to infect only some species, but since usually the genetic difference between two species is so large that the viruses are unable to infect. However since viruses are infecting a lot of organisms, they get better and better in infecting others. They go through genetic mutations when they reproduce and never know if luckily for them, the mutation is good enough to infect other species too. For example considering a chimpanzee infected by a virus, it is high chance that by very few mutations the virus becomes good enough to infect humans too. But still, the chance underlies whether the human comes in contact of that infected chimpanzee.\n\n"
+"Also another thing that is possible is that viruses combine. Usually virus may not jump from one species to other directly but via other organisms. For example H1N1 virus that spread in the pandemic of 1918, was originated in a US farm. There were three species involved- a chicken, a human and a pig. The chicken had a birdflu, the human had a normal flu. Now both these viruses could not infect the each other's host, but these two could infect a pig. hence when these two came in contact with the pig, the viruses infected the pig and combined to form a H1N1 virus. Now since this new virus had a human virus part, it had a potential to infect the humans. And unluckily exactly the same happened resulting in loss of 50 million lives across the globe.\n\n"
+"The two above possibilities have a pretty high chance to become a reality in the wet markets of China where wildlife animals are traded in bulk. These places prove to be ideal for new viruses to form and infect other species since humans and other species come in contact a lot. The similar happened in the case of SARS and probably happened in the case of nCov-2019 as well.\n\n"
+"Probably for the reason being, China has banned the wildlife trade for now. \n\n"
+</string>
+
+    <string name="helpdesk">The following are some of the fake news that spread in recent times. To deal with such fake news, the Indian government has launched a chatbot on WhatsApp to address user queries and quell rumours on the coronavirus pandemic. The WhatsApp chatbot, ‘MyGov Corona Helpdesk’, can be accessed by sending a text to +91 90131 51515. Hence if you find some message that you want to test, you can engage and find out about the validity of the news here.</string>
+
+    <string name="site1" formatted="false">
+        <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters</a>
+    </string>
+
+    <string name="site2" formatted="false">
+        <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public</a>
+    </string>
+
+    <string name="site3" formatted="false">
+        <a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">https://www.who.int/news-room/q-a-detail/q-a-coronaviruses</a>
+    </string>
+
+    <string name="youtube1" formatted="false">
+        <a href="https://www.youtube.com/watch?v=xnkQUgamT_k">Dhruv Rathee\'s video on \'Coronavirus explained by Dhruv Rathee\'</a>
+    </string>
+
+    <string name="youtube2">
+        <a href="https://www.youtube.com/watch?v=BtN-goy9VOY&amp;t=206s">\'The Coronavirus Explained &amp; What You Should Do\' by Kurzgesagt – In a Nutshell</a>
+    </string>
+
+    <string name="youtube3">
+        <a href="https://www.youtube.com/watch?v=jgGdQkXJENA">\'What is a Coronavirus?\' by It\'s Aumsum Time</a>
+    </string>
+
+    <string name="site4" formatted="false">
+        <a href="https://scopeblog.stanford.edu/2020/04/02/whats-a-virus-anyway-part-1-the-bare-bones-basics/">https://scopeblog.stanford.edu/2020/04/02/whats-a-virus-anyway-part-1-the-bare-bones-basics/</a>
+    </string>
+
+    <string name="site5" formatted="false">
+        <a href="https://www.nature.com/scitable/definition/virus-308/">https://www.nature.com/scitable/definition/virus-308/</a>
+    </string>
+
+    <string name="site6" formatted="false">
+        <a href="https://www.health.harvard.edu/diseases-and-conditions/preventing-the-spread-of-the-coronavirus">https://www.health.harvard.edu/diseases-and-conditions/preventing-the-spread-of-the-coronavirus</a>
+    </string>
+
+    <string name="site7" formatted="false">
+        <a href="https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center">https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center</a>
+    </string>
+
+    <string name="site8" formatted="false">
+        <a href="https://www.health.harvard.edu/diseases-and-conditions/coping-with-coronavirus">https://www.health.harvard.edu/diseases-and-conditions/coping-with-coronavirus</a>
+    </string>
+
+    <string name="youtube4">
+        <a href="https://www.youtube.com/watch?v=TGxjE82HMjM">Soch\'s video on \'Coronavirus in India: 5 things you need to know about the virus\'\n\n</a>
+    </string>
+
+    <string name="suggestions" formatted="false">If you have some amazing information or research regarding COVID-19, you can send it via email. Also, if you have any suggestions, you can contact me on that as well. Your lovely suggestions are always welcome.</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CovidInfo">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:columnCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474"
+        app:rowCount="5">
+
+        <Button
+            android:id="@+id/whatvirus"
+            android:background="#5E35B1"
+            android:onClick="showvirusInfo"
+            android:text="what is virus at the first place?"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/virusbacteria"
+            android:layout_marginTop="5dp"
+            android:background="#5E35B1"
+            android:onClick="showdiff"
+            android:text="how virus is different from bacteria?"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/covid"
+            android:layout_marginTop="5dp"
+            android:background="#5E35B1"
+            android:onClick="showcoivddetail"
+            android:text="what actually is covid-19?"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/why"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#5E35B1"
+            android:onClick="showwhysafety"
+            android:text="why follow the safety tips?"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/china"
+            android:layout_marginTop="5dp"
+            android:background="#5E35B1"
+            android:onClick="showChina"
+            android:text="why china is being blamed?"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="4"
+            app:layout_rowWeight="1" />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gocoronago">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ContactActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".SourcesActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ChinaActivty" android:screenOrientation="portrait" />
+        <activity android:name=".WhySafetyTips" android:screenOrientation="portrait"/>
+        <activity android:name=".whatisactuallycovid19" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".whatiscorona"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BacteriaVirusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WhatIsVirusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RumourActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CovidInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SafetyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Govtguidelines"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
