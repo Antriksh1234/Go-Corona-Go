@@ -10,29 +10,32 @@
         android:id="@+id/textView3"
         android:layout_width="0dp"
         android:layout_height="26dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
         android:text="You can contact me on my email:-"
-        android:textSize="18dp"
+        android:textSize="24sp"
         app:fontFamily="sans-serif-black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.244"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp" />
 
     <TextView
         android:id="@+id/textView49"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:autoLink="email"
         android:onClick="writeMail"
         android:text="antrikshtelang1998@gmail.com"
         android:textSize="18dp"
         app:fontFamily="sans-serif-black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -40,40 +43,46 @@
         android:id="@+id/textView65"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginTop="30dp"
         android:text="My LinkedIn profile:-"
-        android:textSize="18dp"
+        android:textSize="24sp"
         app:fontFamily="sans-serif-black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        android:layout_marginRight="16dp" />
 
     <TextView
         android:id="@+id/textView66"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:text="linkedin.com/in/antriksh-telang-1aba1a191"
-        android:textSize="18dp"
+        android:textSize="18sp"
+        android:layout_marginEnd="16dp"
         android:autoLink="web"
         app:fontFamily="sans-serif-black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView65" />
+        app:layout_constraintTop_toBottomOf="@+id/textView65"
+        android:layout_marginRight="16dp" />
 
     <TextView
         android:id="@+id/textView67"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="30dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginRight="16dp"
         android:text="@string/suggestions"
-        android:textSize="18dp"
-        app:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView66" />
+        app:layout_constraintTop_toBottomOf="@+id/textView66"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

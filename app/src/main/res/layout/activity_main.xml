@@ -10,10 +10,7 @@
         android:id="@+id/gridlayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
+        android:layout_margin="16dp"
         app:columnCount="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +20,7 @@
 
         <Button
             android:id="@+id/buttonwhat"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:includeFontPadding="false"
             android:onClick="covidInfo"
             android:text="Understanding Covid-19 "
@@ -37,7 +34,7 @@
         <Button
             android:id="@+id/buttongovern"
             android:layout_marginTop="5dp"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="seegovtsite"
             android:text="Government Guidelines"
             android:textColor="#FFFFFF"
@@ -50,7 +47,7 @@
         <Button
             android:id="@+id/buttonnews"
             android:layout_marginTop="5dp"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="seeNews"
             android:text="Latest Cororna News"
             android:textColor="#FFFFFF"
@@ -63,7 +60,7 @@
         <Button
             android:id="@+id/buttonsafety"
             android:layout_marginTop="5dp"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="safety"
             android:text="Safety precautions"
             android:textColor="#FFFFFF"
@@ -76,7 +73,7 @@
         <Button
             android:id="@+id/buttonrumours"
             android:layout_marginTop="5dp"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="showrumours"
             android:text="Funny rumours that spread around"
             android:textColor="#FFFFFF"
@@ -89,7 +86,7 @@
         <Button
             android:id="@+id/buttonabout"
             android:layout_marginTop="5dp"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="aboutshow"
             android:text="About us"
             android:textColor="#FFFFFF"

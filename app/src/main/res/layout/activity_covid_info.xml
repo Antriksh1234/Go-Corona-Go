@@ -10,10 +10,7 @@
         android:id="@+id/gridLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
+        android:layout_margin="16dp"
         app:columnCount="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +22,7 @@
 
         <Button
             android:id="@+id/whatvirus"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="showvirusInfo"
             android:text="what is virus at the first place?"
             android:textColor="#FFFFFF"
@@ -38,7 +35,7 @@
         <Button
             android:id="@+id/virusbacteria"
             android:layout_marginTop="5dp"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="showdiff"
             android:text="how virus is different from bacteria?"
             android:textColor="#FFFFFF"
@@ -51,7 +48,7 @@
         <Button
             android:id="@+id/covid"
             android:layout_marginTop="5dp"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="showcoivddetail"
             android:text="what actually is covid-19?"
             android:textColor="#FFFFFF"
@@ -65,7 +62,7 @@
             android:id="@+id/why"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="showwhysafety"
             android:text="why follow the safety tips?"
             android:textColor="#FFFFFF"
@@ -78,7 +75,7 @@
         <Button
             android:id="@+id/china"
             android:layout_marginTop="5dp"
-            android:background="#5E35B1"
+            android:background="@color/greenTheme"
             android:onClick="showChina"
             android:text="why china is being blamed?"
             android:textColor="#FFFFFF"

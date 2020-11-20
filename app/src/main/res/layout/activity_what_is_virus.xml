@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".WhatIsVirusActivity">
 
-
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_margin="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -19,25 +19,25 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-
-        >
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="10dp"
                 android:text=" What are Viruses?"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 app:fontFamily="sans-serif-black" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/virusimage" />
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/virus_image" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -46,14 +46,14 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:text="@string/virusinfo"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 app:fontFamily="sans-serif-condensed-medium" />
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                app:srcCompat="@drawable/virushijack" />
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/virus_hijack" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -62,8 +62,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:text="@string/viruainfo2"
-                android:textSize="18dp"
-                app:fontFamily="sans-serif-condensed-medium" />
+                android:textSize="18sp" />
 
         </LinearLayout>
     </ScrollView>
